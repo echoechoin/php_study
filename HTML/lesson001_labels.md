@@ -131,7 +131,8 @@ align:	center/right/left
 		<li>list3</li>
 	</ul>
 ```
-无序列表的属性：
+无序列表的属性：  
+
 | attribules |        values            |
 | ------     |        ------            | 
 | type       | disc(实心圆) square circ  |
@@ -140,7 +141,8 @@ align:	center/right/left
 ```html
 <img src="https://cn.bing.com/sa/simg/SharedSpriteDesktop_2x_090619.png" />
 ```
-img的属性：
+img的属性：  
+
 | attribules  |        values            |
 | ------      |        ------            | 
 | width/height|         \                |
