@@ -119,10 +119,12 @@ align:	center/right/left
 </ol>
 ```
 有序列表的属性：
+
 | attribules | values  |
 | ------     | ------  | 
 | type | 1/a/A/i/I/none|
 | start | 起始位置(阿拉伯数字) | 
+
 ##### 无序列表
 ```html
 	<ul>
