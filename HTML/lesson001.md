@@ -96,6 +96,17 @@ noshade="noshade"
 align:	center/right/left
 -->
 <h1></h1>
+
+<!--块标签
+块标签独占一行
+块元素可以设置宽高
+-->
+<div></div>
+
+<!--行内标签
+行内标签无法设置宽高
+-->
+<span></span>
 ```
 
 
