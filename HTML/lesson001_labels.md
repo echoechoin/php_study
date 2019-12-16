@@ -1,8 +1,8 @@
 # HTML
 Hyper text markup language
 # 标记
-### 元素
-##### 标签  
+## 元素
+### 标签  
 双标签  
 ```html
 <标签名></标签名>
@@ -11,12 +11,12 @@ Hyper text markup language
 ```html
 <标签名>
 ```
-##### 属性  
+### 属性  
 ```html
 <标签名 属性="值"></标签名>
 ```
 # 标记分类
-### 主体标签
+## 主体标签
 ```html
 <!DOCTYPE html>
 <html>
@@ -29,7 +29,7 @@ Hyper text markup language
 </body>
 </html>
 ```
-### 文本标签
+## 文本标签
 ```html
 <!--加粗-->
 <b>Bold</b>
@@ -67,12 +67,12 @@ face:	字体样式
 <sub>sub</sub>
 ```
 
-### 注释
+## 注释
 ```html
 <!--There is comments.-->
 ```
 
-### 排版标签
+## 排版标签
 ```html
 <!--段落
 段落标签上下有空隙
@@ -109,8 +109,8 @@ align:	center/right/left
 <span></span>
 ```
 
-### 列表标签
-##### 有序列表
+## 列表标签
+### 有序列表
 ```html
 <ol>
 	<li>list1</li>
@@ -125,7 +125,7 @@ align:	center/right/left
 | type | 1/a/A/i/I/none|
 | start | 起始位置(阿拉伯数字) | 
 
-##### 无序列表
+### 无序列表
 ```html
 	<ul>
 		<li>list1</li>
@@ -139,7 +139,7 @@ align:	center/right/left
 | ------     |        ------            | 
 | type       | disc(实心圆) square circ  |
 
-### 图片标签
+## 图片标签
 ```html
 <img src="https://cn.bing.com/sa/simg/SharedSpriteDesktop_2x_090619.png" />
 ```
@@ -149,7 +149,7 @@ img的属性：
 | ------      |        ------            | 
 | width/height|         \                |
 
-### 链接标签
+## 链接标签
 ```html
 <a href="https://www.baidu.com">baidu.com</a>
 ```
