@@ -109,8 +109,44 @@ align:	center/right/left
 <span></span>
 ```
 
+### 列表标签
+##### 有序列表
+```html
+<ol>
+	<li>list1</li>
+	<li>list2</li>
+	<li>list3</li>
+</ol>
+```
+有序列表的属性：
+| attribules | values  |
+| ------     | ------  | 
+| type | 1/a/A/i/I/none|
+| start | 起始位置(阿拉伯数字) | 
+##### 无序列表
+```html
+	<ul>
+		<li>list1</li>
+		<li>list2</li>
+		<li>list3</li>
+	</ul>
+```
+无序列表的属性：
+| attribules |        values            |
+| ------     |        ------            | 
+| type       | disc(实心圆) square circ  |
 
+### 图片标签
+```html
+<img src="https://cn.bing.com/sa/simg/SharedSpriteDesktop_2x_090619.png" />
+```
+img的属性：
+| attribules  |        values            |
+| ------      |        ------            | 
+| width/height|         \                |
 
-
-
+### 链接标签
+```html
+<a href="https://www.baidu.com">baidu.com</a>
+```
 
