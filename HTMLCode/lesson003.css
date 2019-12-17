@@ -42,3 +42,15 @@ a:active{
 ul .li1{
 	color: red;
 }
+
+/* 子代选择器 */
+ul>.li3{
+	color:green;
+}
+
+
+
+
+
+
+
