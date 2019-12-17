@@ -1,0 +1,44 @@
+
+/* 通用选择器 */
+*{
+	background:gray;
+}
+
+/* 标签选择器 */
+p{
+	color: blue;
+}
+
+/* 类选择器 */
+.p1{
+	color: purple;
+}
+
+/* id选择器 */
+#p2{
+	color: green;
+}
+
+/* 伪类选择器 */
+a:link{
+	font-size: 10px;
+}
+a:visited{
+	font-size: 15px；
+}
+a:hover{
+	font-size: 20px;
+}
+a:active{
+	font-size: 25px;
+}
+
+/* 分组选择器 */
+.li1,.li2{
+	color: yellow;
+}
+
+/* 后代选择器 */
+ul .li1{
+	color: red;
+}
