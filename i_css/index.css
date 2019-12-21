@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#head{
+    width: 1200px;
+    height: 150px;
+    margin: 20px  auto 0 auto;
+
+   // border: 1px solid red;
+}
+#logo{
+    /* word logo */
+    width: 1200px;
+    height: 150px;
+}
+#logo .logo_php{
+    font-size: 100px;
+    color: red;
+}
+#logo .logo_study{
+    font-size: 70px;
+}
+#nav{
+    width: 1200px;
+    margin: 0 auto 10px auto;
+    background-color: rgb(232,231,227);
+   // border: 1px solid blue;
+}
+#nav a{
+    display: block;
+    margin: 0 5px 0 5px;
+    float: left;
+    width: 80px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    background-color: rgb(232,231,227);
+    color: rgb(162,162,160);
+    text-decoration: none;
+
+  //  border:1px solid yellow;
+}
+#nav a:hover{
+    display: block;
+    margin: 0 5px 0 5px;
+    float: left;
+    width: 80px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    background-color: rgb(63,63,63);
+    color: rgb(162,162,160);
+    text-decoration: none;
+
+  //  border:1px solid yellow;
+}
+#nav::after{
+    content: "";
+    display: block;
+    clear: left;
+}
+#main{
+    width:1200px;
+    min-height: 500px;
+    margin: 0 auto;
+    position:relative;
+   // border:1px solid black;
+}
+#main #sidebar{
+    position: absolute;
+    min-height: 500px;
+    width: 150px;
+    border: 1px solid rgb(232,231,227);
+}
+#foot{
+    width: 1200px;
+    height: 30px;
+    margin: 0 auto;
+    background-color: rgb(232,231,227);
+
+   // border: 1px solid blue;
+}
+#foot div{
+    color: rgb(162,162,160);
+    width: 800px;
+    height: 30px;
+    margin: 0 auto;
+    line-height: 30px;
+    text-align: center;
+
+   // border: 1px solid green;
+}
