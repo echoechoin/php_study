@@ -73,10 +73,42 @@
     width: 150px;
     border: 1px solid rgb(232,231,227);
 }
+.sidebar_menu li{
+    list-style: none;
+}
+.sidebar_sub_menu li{
+    list-style: none;
+   // text-align: center;
+    height: 30px;
+    line-height: 30px;
+    font-size: 14px;
+}
+.sidebar_sub_menu li a{
+    display: block;
+    text-decoration: none;
+    color: black;
+    padding-left: 15px;
+}
+.sidebar_sub_menu li a:hover{
+    background-color: rgb(162,162,160);
+    color: rgb(232,231,227);
+}
+
+.sidebar_menu_title{
+    margin-top: 10px;
+    padding-left: 10px;
+    font-weight: bold;
+}
+#content{
+    position: absolute;
+    width: 1020px;
+    left: 180px;
+}
 #foot{
     width: 1200px;
     height: 30px;
     margin: 0 auto;
+    font-size: 14px;
     background-color: rgb(232,231,227);
 
    // border: 1px solid blue;
@@ -90,4 +122,13 @@
     text-align: center;
 
    // border: 1px solid green;
+}
+#git_logo{
+    position: fixed;
+    right: 0;
+    top: 0;
+}
+#git_logo a img{
+    width: 100px;
+    height: auto;
 }
