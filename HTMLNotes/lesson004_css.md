@@ -90,7 +90,7 @@ CSS样式必须写单位（px等）；
 2. **如果是复合选择器，把权重相加得到的结果越大，优先级越高。**
 3. 如果优先级相同，则后面的样式会覆盖前面的样式。
 
-## css属性
+## css基础属性
 
 ### 尺寸
 wdith：宽度  
@@ -100,6 +100,7 @@ height：高度
 display: block(转换为块元素) / inline(转换为行元素) / inline-block(函内块，即可设置宽高，也可以在同一行显示) / none(隐藏一个元素)。
 
 ### 字体
+font: 设置font所有属性，应该有顺序：color font-style font-size font-weight font-style
 font-size: 文字大小  
 `font-famliy`: 字体  
 `font-weight`：加粗(bold / normal)  
@@ -112,7 +113,8 @@ color: 文本颜色
 `test-indent`: 首行缩进 *n*px / *n*em  
 `letter-spacing`: 字间距  
 `word-spacing`: 词间距  
-`line-height`: 行高 【tips：让行高和高度相同就能是文字上下居中】  
+`line-height`: 行高 【tips：让行高和高度相同就能使文字上下居中】  
+
 
 
 
