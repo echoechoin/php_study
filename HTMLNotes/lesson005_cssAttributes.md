@@ -99,7 +99,7 @@
 	div{
 		background-color: black; // 背景颜色
 		background-image: url(./sample.jpg); // 背景图片
-		background-repeat: repeat | repeat-x | repeat-y | no-repeat // 背景是否重复
+		background-repeat: repeat | repeat-x | repeat-y | no-repeat // 背景是否重复 CSS3还有: round(自动调整(微小缩放)到没有被裁切) | space（自动调整(添加空隙)到没有裁切） 
 		background: url(./sample) no-repeat // 统一设置的方法
 
 		background-position: 10px 10px; // 修改背景图片的位置
